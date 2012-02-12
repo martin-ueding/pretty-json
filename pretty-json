@@ -1,0 +1,12 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# Copyright (c) 2012 Martin Ueding <dev@martin-ueding.de>
+
+import json
+import sys
+
+if __name__ == "__main__":
+    data = json.load(sys.stdin)
+    json.dump(data, sys.stdout, indent=4, sort_keys=True)
+    sys.stdout.write("\n")
