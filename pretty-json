@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# Copyright (c) 2012 Martin Ueding <dev@martin-ueding.de>
+# Copyright (c) 2012 Martin Ueding <martin-ueding.de>
 
 import json
 import sys
