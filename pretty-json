@@ -8,5 +8,5 @@ import sys
 
 if __name__ == "__main__":
     data = json.load(sys.stdin)
-    json.dump(data, sys.stdout, indent=4, sort_keys=True)
+    json.dump(data, sys.stdout, indent=2, sort_keys=True)
     sys.stdout.write("\n")
